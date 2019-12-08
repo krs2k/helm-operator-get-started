@@ -2,17 +2,14 @@
 apiVersion: flux.weave.works/v1beta1
 kind: HelmRelease
 metadata:
-  name: podinfo-prod
-  namespace: prod
+  name: user
+#  namespace: prod
   annotations:
     flux.weave.works/automated: "true"
     flux.weave.works/tag.chart-image: semver:~0.4
 spec:
-  releaseName: podinfo-prod
+  releaseName: user
   chart:
-    git: git@github.com:stefanprodan/gitops-helm
-    path: charts/podinfo
-    ref: master
-  values:
-    image: stefanprodan/podinfo:0.4.11
-    replicaCount: 3
+    repository: https://payticon-charts.devticon.com/
+    name: user
+    version: 1.0.7-test-3
