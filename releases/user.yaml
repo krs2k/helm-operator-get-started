@@ -12,3 +12,5 @@ spec:
     repository: https://payticon-charts.devticon.com
     name: user
     version: 1.0.7-test-3
+    values:
+      - adminPasssword: Test1234
