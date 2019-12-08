@@ -9,6 +9,6 @@ metadata:
 spec:
   releaseName: user
   chart:
-    repository: https://payticon-charts.devticon.com/
+    repository: https://payticon-charts.devticon.com
     name: user
     version: 1.0.7-test-3
