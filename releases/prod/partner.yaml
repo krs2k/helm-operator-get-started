@@ -1,16 +1,12 @@
 apiVersion: flux.weave.works/v1beta1
 kind: HelmRelease
 metadata:
-  name: user
-  namespace: dev
+  name: partner
   annotations:
     flux.weave.works/automated: "true"
-#    flux.weave.works/tag.chart-image: semver:~0.4
 spec:
-  releaseName: user
+  releaseName: partner
   chart:
     repository: https://payticon-charts.devticon.com
-    name: user
-    version: 1.0.7-test-3
-    values:
-      - adminPasssword: Test1234
+    name: partner
+    version: 1.0.1
