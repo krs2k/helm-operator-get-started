@@ -2,6 +2,7 @@ apiVersion: flux.weave.works/v1beta1
 kind: HelmRelease
 metadata:
   name: partner
+  namespace: dev
   annotations:
     flux.weave.works/automated: "true"
 spec:
