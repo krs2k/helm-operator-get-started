@@ -3,8 +3,8 @@ kind: HelmRelease
 metadata:
   name: partner
   annotations:
-    flux.weave.works/automated: "true"
-    flux.weave.works/tag.chart-image: "*"
+    fluxcd.io/automated: "true"
+    fluxcd.io/tag.chart-image: "*"
 spec:
   releaseName: partner
   chart:
