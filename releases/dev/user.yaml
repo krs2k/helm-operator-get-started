@@ -3,8 +3,7 @@ kind: HelmRelease
 metadata:
   name: user
   annotations:
-    flux.weave.works/automated: "true"
-    flux.weave.works/tag.chart-image: "*"
+    fluxcd.io/automated: "true"
 spec:
   releaseName: user
   chart:
