@@ -4,7 +4,7 @@ metadata:
   name: user
   annotations:
     flux.weave.works/automated: "true"
-#    flux.weave.works/tag.chart-image: semver:~0.4
+    flux.weave.works/tag.chart-image: "*"
 spec:
   releaseName: user
   chart:

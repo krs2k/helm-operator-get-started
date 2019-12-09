@@ -4,6 +4,7 @@ metadata:
   name: partner
   annotations:
     flux.weave.works/automated: "true"
+    flux.weave.works/tag.chart-image: "*"
 spec:
   releaseName: partner
   chart:
